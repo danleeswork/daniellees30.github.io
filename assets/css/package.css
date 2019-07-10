@@ -70,7 +70,7 @@ sub,sup{
     }
 }
 #particles-js{
-    background:#1a222c;
+    background:#4b0519;
     display:flex;
     vertical-align:bottom;
     min-height:100vh;
@@ -147,23 +147,24 @@ sub,sup{
     text-align:center
 }
 .header-icons .icon{
-    height:20px;
-    padding:10px;
+    height:45px;
+    padding-top: 10px;
     border-radius:50%;
     transition:all .5s;
-    width:20px;
+    width:45px;
     font-size:20px;
+    text-align: center;
     margin:5px;
     border:2px solid #fff
 }
 .header-icons .icon:active,.header-icons .icon:hover{
-    color:#1a222c;
+    color:#4b0519;
     background:#fff
 }
 @media only screen and (min-width:768px){
     .header-icons .icon{
-        width:35px;
-        height:35px;
+        width:60px;
+        height:60px;
         font-size:30px
     }
 }
@@ -195,8 +196,9 @@ sub,sup{
     animation:pulse 1.3s infinite
 }
 .down .icon:active,.down .icon:hover,.footer a:active,.footer a:hover{
-    color:#4b5664
+    color:#A92541;
 }
+
 #about{
     font-size:120%;
     width:90%;
@@ -241,8 +243,9 @@ sub,sup{
     margin:5px auto
 }
 .footer{
-    background:#1a222c;
-    padding:10px 0;
+    background:#4b0519
+;
+    padding:1px 0;
     margin-top:100px;
     text-align:center;
     color:#fff

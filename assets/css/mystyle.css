@@ -1,17 +1,97 @@
 /**
 * Navbar style
 **/
-
-#navbar{
-
+#editedNavbar > nav{
+  border: none;
+  border-radius: 0;
+  border-bottom: solid 5px #4B0519;
+  background-color: #5A5353;
 }
 
-#nameLogo>h2{
-  padding: 0;
-  margin: 0;
-  
+#myNavbarBrand{
+  font-size: 30px;
+  font-family: 'Antic Slab',serif;
+  color: #fff;
+  transition:all .5s;
+  margin-left: 10px;
+}
+#myNavbarBrand:hover, #myNavbarBrand:active{
+  color:#4b0519;
+}
+
+.navbar-icons{
+    padding-top: 0;
+    display:flex;
+    justify-content:center;
+    text-align:center
+}
+@media only screen and (min-width:768px){
+  .navbar-icons{
+      padding-top: 5px;
+      justify-content:left;
+  }
+}
+.navbar-icons a{
+    outline:0!important;
+    border:none!important;
+    outline-style:none!important;
+    -moz-outline-style:none!important
+}
+.navbar-icons .icon{
+  color:#fff;
+  text-align:center;
+    height:30px;
+    padding-top: 5px;
+    border-radius:50%;
+    transition:all .5s;
+    width:30px;
+    font-size:15px;
+    text-align: center;
+    margin:5px;
+    border:2px solid #fff
+}
+.navbar-icons .icon:active,.navbar-icons .icon:hover{
+    color:#4b0519;
+    background:#fff
 }
 
 #navOptions{
+  margin: 0;
+  margin-right: 0;
+}
+#navOptions li a{
+  font-size: 20px;
+  font-family: 'Antic Slab',serif;
+  color: #fff;
+  transition:all .5s;
+  text-align: center;
+  margin: 0;
+}
+#navOptions li a:hover,#navOptions li a:active{
+  color:#4b0519;
+  background-color: #fff;
+  font-weight: bold;
+}
+@media only screen and (min-width:768px){
+  #navOptions li a{
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width:1000px){
+  #navOptions{
+    margin-right: 10px;
+  }
+  #navOptions li a{
+    font-size: 20px;
+  }
+}
 
+
+#editedNavbarButton{
+  margin-top: 7px;
+  border: solid 2px #fff;
+  transition:all .5s;
+}
+#editedNavbarButton:hover, #editedNavbarButton:active, #editedNavbarButton:visited{
+  background-color: #4b0519;
 }

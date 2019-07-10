@@ -3,12 +3,15 @@
 <html lang="en">
   {% include head.html %}
   <body>
+
       {% include header.html %}
-      {% include navbar.html %}
-      <section id="about">
-        {% include about.html %}
+      <section id="bodyContent">
+        {% include navbar.html %}
+
+        <section id="about">
+          {% include about.html %}
+        </section>
       </section>
-        {{ content }}
       {% include footer.html %}
   </body>
 </html>
